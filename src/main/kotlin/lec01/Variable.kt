@@ -23,6 +23,6 @@ class Variable {
         /**
          * 객체를 인스턴스화 할 때 new를 붙이지 않아야 한다
          */
-        var person = Person("김보민")
+        var person = Person("김보민", 29)
     }
 }
