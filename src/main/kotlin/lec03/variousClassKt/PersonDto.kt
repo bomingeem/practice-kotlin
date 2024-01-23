@@ -1,4 +1,4 @@
-package lec03
+package lec03.variousClassKt
 
 fun main() {
     val dto1 = PersonDto("김보민", 30)
@@ -8,7 +8,7 @@ fun main() {
 }
 
 /**
- * data 키워드를 붙여주면 equals, hashCode, toString을 자동으로 만들어준다
+ * data 키워드를 붙여주면 equals, hashCode, toString 을 자동으로 만들어준다
  */
 data class PersonDto(
     val name: String,

@@ -1,4 +1,4 @@
-package lec03;
+package lec03.inheritanceKt;
 
 public interface Movable {
 

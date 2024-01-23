@@ -1,4 +1,4 @@
-package lec03;
+package lec03.nestedClassKt;
 
 public class JavaHouse {
 

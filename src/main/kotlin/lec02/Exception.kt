@@ -13,6 +13,9 @@ class Exception {
         }
     }
 
+    /**
+     * try catch 구문 expression
+     */
     fun parseIntOrThrowV2(str: String): Int? {
         return try {
             str.toInt()
@@ -22,7 +25,7 @@ class Exception {
     }
 
     /**
-     * Kotlin에서 모든 예외는 Unchecked Exception이다
+     * Kotlin 에서 모든 예외는 Unchecked Exception 이다
      */
     fun readFile() {
         val currentFile = File(".")

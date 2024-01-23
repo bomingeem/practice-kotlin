@@ -1,4 +1,4 @@
-package lec03
+package lec03.inheritanceKt
 
 class Cat(
     species: String

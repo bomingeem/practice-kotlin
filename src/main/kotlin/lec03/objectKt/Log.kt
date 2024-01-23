@@ -1,4 +1,4 @@
-package lec03
+package lec03.objectKt
 
 interface Log {
 

@@ -40,7 +40,7 @@ fun main() {
         .forEach { number -> println(number) }
 
     /**
-     * 라벨을 사용한 Jump는 사용하지 않음을 권장
+     * 라벨을 사용한 Jump 는 사용하지 않음을 권장
      */
     abc@ for (i in 1..100) {
         for (j in 1..100) {

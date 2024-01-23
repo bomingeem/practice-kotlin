@@ -1,4 +1,4 @@
-package lec03
+package lec03.variousClassKt
 
 /**
  * 컴파일 타임 때 하위 클래스의 타입을 모두 기억한다

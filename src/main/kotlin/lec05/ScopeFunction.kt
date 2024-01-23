@@ -3,6 +3,10 @@ package lec05
 fun main() {
     /**
      * let
+     * 하나 이상의 함수를 call chain 결과로 호출할 때
+     * non-null 값에 대해서만 code block 을 실행시킬 때
+     * 일회성으로 제한된 영역에 지역 변수를 만들 때
+     * 람다의 결과, it 사용
      */
     val strings = listOf("APPLE", "CAR")
     strings.map { it.length }
@@ -23,11 +27,15 @@ fun main() {
 
     /**
      * run
+     * 객체 초기화와 반환 값의 계산을 동시에 해야할 때
+     * 람다의 결과, it 사용
      */
     // Person("김보민", 29).run(personRepository::save)
 
     /**
      * also
+     * 객체를 수정하는 로직이 call chain 중간에 필요할 때
+     * 객체 그 자체, this 사용
      */
     mutableListOf("one", "two", "three")
         .also { println("The list elements before adding new one: $it") }

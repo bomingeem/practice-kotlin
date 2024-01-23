@@ -1,11 +1,11 @@
-package lec03;
+package lec03.inheritanceKt;
 
 public class JavaPenguin extends JavaAnimal implements JavaFlyable, JavaSwimable {
 
     private final int wingCount;
 
-    public JavaPenguin(String species, int legCount) {
-        super(species, legCount);
+    public JavaPenguin(String species) {
+        super(species, 2);
         this.wingCount = 2;
     }
 

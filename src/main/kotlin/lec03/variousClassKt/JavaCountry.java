@@ -1,4 +1,4 @@
-package lec03;
+package lec03.variousClassKt;
 
 public enum JavaCountry {
 

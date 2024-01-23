@@ -1,4 +1,6 @@
-package lec03
+package lec03.objectKt
+
+import lec03.inheritanceKt.Movable
 
 fun main() {
     moveSomething(object : Movable {

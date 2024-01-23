@@ -1,14 +1,15 @@
 package lec02
 
+
 class ControlStatement {
-    fun validationScoreIsNotNegative(score: Int) {
+    fun validateScoreIsNotNegative(score: Int) {
         if (score !in 0..100) {
             throw IllegalArgumentException("${score}는 0부터 100입니다")
         }
     }
 
     /**
-     * Kotlin에서는 if-else를 Expression으로 취급해서 삼항 연산자가 없다
+     * Kotlin 에서는 if-else 를 Expression 으로 사용할 수 있기 때문에 삼항 연산자가 없다
      * Statement: 프로그램의 문장, 하나의 값으로 도출되지 않는다
      * Expression: 하나의 값으로 도출되는 문장
      */
@@ -36,7 +37,7 @@ class ControlStatement {
     }
 
     /**
-     * Java의 switch는 Kotlin에서 when 대체되었다
+     * Java 의 switch 는 Kotlin 에서 when 으로 대체되었다
      */
     fun getGradeWithSwitch(score: Int): String {
         return when (score / 10) {
